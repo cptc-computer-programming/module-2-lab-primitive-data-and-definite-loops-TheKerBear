@@ -35,7 +35,11 @@ public class ReceiptTotals {
     // TODO:
     // Print a countdown from 5 down to 0 on one line.
     public static void printClosingCountdown() {
-    
+
+        for(int i = 5; i >= 0; i --) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
     
 }
