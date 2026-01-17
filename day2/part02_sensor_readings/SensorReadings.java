@@ -13,6 +13,16 @@ public class SensorReadings {
         // At each minute, compute a value equal to (minute / 5) * 2,
         // then print the minute and the computed value.
 
+        // loop over minutes 0 - 60 updating by 5 each time
+        for (int minute = 0; minute <= 60; minute += 5 ) {
+        
+            // compute a value = (minute / 5) * 2
+            double value = (minute / 5) * 2;
+
+            // print the minute and that value using string concatonation 
+            System.out.println("minute " + minute + " value " + value);
+        }
+
     }
     
 }
